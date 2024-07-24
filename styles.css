@@ -1,0 +1,71 @@
+/* Basic reset and font settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #e0f7fa; /* Soft light blue background */
+}
+
+/* Header styles with a darker shade of blue */
+header {
+    background: #00bcd4; /* Light blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    border-bottom: 5px solid #0097a7; /* Slightly darker blue for contrast */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styles for content areas */
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border: 1px solid #b3e5fc; /* Very light blue border */
+    border-radius: 8px; /* Rounded corners for sections */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #00bcd4;
+    color: #fff;
+    border-top: 5px solid #0097a7;
+}
+
+/* Enhancements for aesthetics */
+h1, h2 {
+    font-weight: normal;
+    color: #0277bd; /* Blue accents for headers */
+}
+
+p {
+    font-size: 1.1em; /* Slightly larger paragraph text */
+}
+
+/* Hover effects for links */
+nav ul li a:hover, nav ul li a:focus {
+    color: #b2ebf2; /* Light blue for hover state */
+    text-decoration: underline;
+}
