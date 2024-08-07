@@ -15,25 +15,6 @@ header {
     text-align: center;
 }
 
-/* Navigation styles */
-nav ul {
-    border-radius: 10px;
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-    background-color: #dad7d7;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #5c4a4a;
-}
-
 /* Section styles */
 section {
     border-radius: 30px;
