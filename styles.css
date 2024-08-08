@@ -31,6 +31,10 @@ section {
     gap: 30px; /* Space between image and text */
 }
 
+.skills-content {
+    margin: 30px;
+}
+
 .profile-pic {
     width: 150px; /* Adjust size as needed */
     object-fit: cover; /* Ensure the image covers the circle */
@@ -81,7 +85,7 @@ i {
     align-items: center; /* Center items vertically */
     gap: 40px; /* Space between the links */
     padding: 10px;
-    margin: 20px;
+    margin: 0px;
 }
 
 /* Centering content within the contact section */
@@ -94,4 +98,17 @@ i {
 
 #contact h2, #contact p {
     text-align: center;
+}
+
+/* Skills section styles */
+#skills ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+/* Icon styles */
+#skills i {
+    font-size: 1em; /* Adjust the size of the icons as needed */
+    margin-right: 8px; /* Space between the icon and the text */
 }
