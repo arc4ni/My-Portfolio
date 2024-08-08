@@ -49,4 +49,33 @@ a {
 
 i {
     color: #705853;
+    font-size: 2em;
+}
+
+#contact li {
+    list-style-type: none; /* Ensure list items have no bullets */
+    margin: 0px; /* Adjust margin if needed */
+    padding: 0px; /* Adjust padding if needed */
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 40px; /* Space between the links */
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Centering content within the contact section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center text within the section */
+}
+
+#contact h2, #contact p {
+    text-align: center;
 }
